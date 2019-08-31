@@ -10,13 +10,13 @@ public class Topic {
 
     }
 
-    private Topic(String id, String name, String description) {
+    public Topic(String id, String name, String description) {
         this.id = id;
         this.name = name;
         this.description = description;
     }
 
-    private String getId() {
+    public String getId() {
         return id;
     }
 
